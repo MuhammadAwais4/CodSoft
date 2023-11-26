@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box ;
+font-family: 'Poppins', sans-serif;
+
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(-180deg, #BCC5CE 0%, #929EAD 98%), radial-gradient(at top left, rgba(255,255,255,0.30) 0%, rgba(0,0,0,0.30) 100%);
+background-blend-mode: screen;
+
+}
+
+.calculator{
+    border: 1px solid #717377;
+    padding: 20px;
+border-radius: 16px;
+background: #C9CCD3;
+background-image: linear-gradient(-180deg, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%);
+background-blend-mode: lighten;
+box-shadow: 0 0 20px black;
+
+}
+input{
+    width: 320px;
+    height: 80px;
+    border: none;
+    border-radius: 12px;
+    padding: 24px;
+    margin: 10px;
+    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+    background-blend-mode: multiply;
+    box-shadow: 0px 3px 15px rgbs(84, 84, 84, 0.1);
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+    color: white;
+}
+
+input::placeholder{
+    color: white;
+
+}
+button{
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+    background-blend-mode: multiply,multiply;
+    color: white;
+    font-size: 20px;
+    box-shadow: -8px -8px 15px rgba(255,255, 255, 0.2);
+    cursor: pointer;
+}
+
+button:hover{
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+.equalbtn{
+
+    background-color: red;
+}
+.operator{
+    color: black;
+}
+footer {
+    position: absolute;
+    color:white;
+    bottom: 0;
+    right: 20px;
+  }
+  .link {
+    color: black;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .link:hover {
+    color: gray;
+  }
