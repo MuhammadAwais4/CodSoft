@@ -501,7 +501,7 @@ section .title::after {
 .projects .carousel .card img {
     height: 200px;
     width: 300px;
-    object-fit: cover;
+    object-fit: fill;
     border-radius: 10px;
     border: 5px solid crimson;
     transition: all 0.3s ease;
